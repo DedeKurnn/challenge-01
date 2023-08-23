@@ -1,0 +1,39 @@
+@media only screen and (max-width: 576px) {
+	.cta-content > h2 {
+		font-size: 1.5rem !important;
+	}
+
+	.service-section img {
+		max-width: 256px;
+		display: flex;
+	}
+
+	.service-section .service-section__img-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 1.5rem;
+	}
+
+	.why-us > :first-child,
+	.faq > :first-child {
+		text-align: center;
+	}
+
+	.car-background {
+		width: 96%;
+		height: 8rem;
+	}
+
+	.car-image {
+		position: absolute;
+		z-index: 2;
+		bottom: 0;
+		right: 0;
+		scale: 1;
+	}
+
+	.cards {
+		display: block;
+	}
+}
