@@ -2,6 +2,9 @@
 	.home__hero {
 		margin-bottom: 4rem;
 	}
+	.home__img {
+		scale: 1;
+	}
 	.cta__content > h2 {
 		font-size: 1.5rem !important;
 	}

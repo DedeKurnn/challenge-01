@@ -84,6 +84,10 @@ nav > .container-fluid {
 	background-color: var(--primary-lime-green-04) !important;
 }
 
+.home__img {
+	scale: 1.1;
+}
+
 .home__car-background {
 	height: 12rem;
 	z-index: -1;
