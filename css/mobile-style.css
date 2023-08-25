@@ -1,45 +1,37 @@
 @media only screen and (max-width: 576px) {
-	.hero {
+	.home__hero {
 		margin-bottom: 4rem;
 	}
-	.cta-content > h2 {
+	.cta__content > h2 {
 		font-size: 1.5rem !important;
 	}
 
-	.service-section img {
+	.service__img-container img {
 		max-width: 256px;
 		display: flex;
 	}
 
-	.service-section .service-section__img-container {
+	.service .service__img-container {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 1.5rem;
 	}
 
-	.why-us > :first-child {
+	.why-us__header {
 		text-align: center;
 	}
 
-	.faq-header {
+	.faq__header {
 		text-align: center;
 	}
 
-	.car-background {
+	.home__car-background {
 		width: 96%;
 		height: 8rem;
 	}
 
-	.car-image {
-		position: absolute;
-		z-index: 2;
-		bottom: 0;
-		right: 0;
-		scale: 1;
-	}
-
-	.cards {
+	.why-us__cards {
 		display: block;
 	}
 
@@ -59,14 +51,14 @@
 		padding: 0 !important;
 	}
 
-	.testimoni-photo__container {
+	.testimonial__photo-container {
 		width: 100%;
 		display: flex;
 		justify-content: center;
 		margin-bottom: 1.5rem;
 	}
 
-	.testimoni-desc {
+	.testimonial__desc {
 		display: flex;
 		width: 100%;
 		align-items: center;
