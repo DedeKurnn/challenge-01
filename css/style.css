@@ -16,6 +16,7 @@ body {
 }
 
 h1 {
+	font-size: 2.25rem !important;
 	font-weight: 700 !important;
 	margin-bottom: 1rem;
 }
@@ -40,7 +41,7 @@ p {
 }
 
 section {
-	margin-bottom: 6rem;
+	margin-top: 6rem;
 }
 
 .logo {
@@ -52,6 +53,12 @@ section {
 .btn {
 	font-weight: 600 !important;
 	color: white !important;
+	border-radius: 2px !important;
+}
+
+.home {
+	width: 100%;
+	margin-top: 6rem;
 }
 
 .header-nav {
@@ -63,39 +70,30 @@ section {
 	padding: 0.5rem 0;
 }
 
+.desktop-nav-hidden {
+	display: none;
+}
+
 nav > .container,
 nav > .container-fluid {
 	padding: 0 !important;
 	margin: 0 !important;
 }
 
-.home {
-	background: #f1f3ff;
-	width: 100% !important;
-	margin: 0 !important;
-	height: 100vh;
-}
-
 .color-primary-green {
 	background-color: var(--primary-lime-green-04) !important;
 }
 
-.car-image {
-	position: absolute;
-	z-index: 2;
-	bottom: 2rem;
-	right: 1rem;
-	scale: 0.95;
+.car-section {
+	position: relative;
+	padding-right: -100px !important;
 }
+
 .car-background {
-	width: 55%;
-	height: 16rem;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 1;
+	height: 12rem;
+	z-index: -1;
 	background-color: var(--primary-dark-blue-04);
-	border-radius: 6rem 0rem 0rem 0rem;
+	border-radius: 4rem 0rem 0rem 0rem;
 }
 
 li {
@@ -150,8 +148,13 @@ ul.services li::before {
 	margin-bottom: 1rem;
 }
 
+.card > p {
+	margin-bottom: 0;
+}
+
 .testimonial-header {
 	text-align: center;
+	margin-bottom: 40px;
 }
 .testimoni {
 	padding: 4rem 2rem;
@@ -159,6 +162,8 @@ ul.services li::before {
 	align-items: center;
 	gap: 2rem;
 	background: #f1f3ff;
+	border-radius: 0.5rem;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .testimoni-desc__opinion {
@@ -167,7 +172,7 @@ ul.services li::before {
 
 .testimoni-photo {
 	overflow: hidden;
-	min-width: 5rem;
+	width: 5rem;
 	height: 5rem;
 	border-radius: 50%;
 	object-fit: cover;
@@ -179,17 +184,17 @@ ul.services li::before {
 	object-fit: cover;
 }
 
+.rate {
+	height: 1rem;
+	width: 5rem !important;
+	align-items: flex-start;
+}
+
 .testimoni-desc {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	gap: 0.5rem;
-}
-
-.star {
-	background-repeat: repeat-x;
-	background-image: url("/assets/icons/star.svg");
-	width: 5rem;
-	height: 1rem;
 }
 
 .cta-content {
@@ -214,6 +219,12 @@ ul.services li::before {
 
 .faq {
 	margin-bottom: 6rem;
+}
+
+.accordion-item-edit {
+	margin-bottom: 1rem !important;
+	border: 1px solid #e0e0e0 !important;
+	overflow: none !important;
 }
 
 .social-media > div {

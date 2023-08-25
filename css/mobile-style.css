@@ -36,4 +36,34 @@
 	.cards {
 		display: block;
 	}
+
+	.mobile-nav-hidden {
+		display: none;
+	}
+
+	.desktop-nav-hidden {
+		display: block;
+	}
+
+	.offcanvas-mobile {
+		width: 50% !important;
+	}
+
+	.offcanvas-body > ul {
+		padding: 0 !important;
+	}
+
+	.testimoni-photo__container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1.5rem;
+	}
+
+	.testimoni-desc {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
 }
