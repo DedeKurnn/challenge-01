@@ -1,4 +1,7 @@
 @media only screen and (max-width: 576px) {
+	.hero {
+		margin-bottom: 4rem;
+	}
 	.cta-content > h2 {
 		font-size: 1.5rem !important;
 	}
@@ -15,8 +18,11 @@
 		margin-bottom: 1.5rem;
 	}
 
-	.why-us > :first-child,
-	.faq > :first-child {
+	.why-us > :first-child {
+		text-align: center;
+	}
+
+	.faq-header {
 		text-align: center;
 	}
 
